@@ -44,10 +44,53 @@ body {
      background-color: #ffffff;
 }
 
+header {
+    background-size: cover;
+    background-color: white;
+    height: 150px;
+}
+
+
+li{
+  display: inline-block;
+  text-align: right;
+  margin: 10px
+}
+
+a {color: inherit;
+  text-decoration: none;
+}
+
+nav{
+  border-bottom:#FFE600
+}
+
 .float-right {
   display: inline-block;
   vertical-align: top;
   text-align: right;
   font-size: 24px;
   font-weight: 600px;
+}
+
+.black-background{
+  background-color: #000000
+}
+
+#grey-background{
+  background-color: #c6c6c6;
+  height: 100px;
+  width: 100%;
+}
+
+.yellow-font {
+  color: #FFE600
+}
+
+.white-font{
+  color: #ffffff;
+}
+
+#background-img{
+  background: url(coworking.jpg) no-repeat center top rgb(134,141,157);
 }
